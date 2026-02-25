@@ -1401,10 +1401,10 @@ function App() {
                     <h3 className="text-[18px] font-bold text-gray-900">使用须知</h3>
                 </div>
                 <div className="text-[14px] text-gray-600 leading-relaxed mb-6 space-y-3 max-h-[50vh] overflow-y-auto pr-1">
-                    <p>1. 建议使用 <b>Edge / Chrome</b> 浏览器以获得最佳体验。</p>
-                    <p>2. 如果图片超过 100 张，生成过程可能会有短暂卡顿。</p>
-                    <p>3. 多组图片导出，受浏览器影响，可能不会全部下载完图片。请尝试使用“打包下载(ZIP)”功能。</p>
-                    <p>4. ❗️❗️❗️多图一定要调一下画质，建议50%左右。</p>
+                    <p>1. 建议使用 <b>Edge / Chrome</b></p>
+                    <p>2. 禁止<b>二传</b>，不经过同意二传发现会删链接的</p>
+                    <p>3. 多图一定要调一下画质，建议50%左右。</p>
+                     <p>4. 图片数量多时候建议把 <b>已导入图片折叠</b>避免卡顿</p>
                 </div>
                 <div className="flex items-center gap-3 mt-2">
                     <button onClick={() => { localStorage.setItem(NOTE_KEY, 'true'); setShowNoteModal(false); }} className="text-xs text-gray-400 font-medium py-2 px-2 active:text-gray-600 transition">不再显示</button>
@@ -1427,7 +1427,7 @@ function App() {
                 <div className="text-[14px] text-gray-600 leading-relaxed mb-6 space-y-2 max-h-[50vh] overflow-y-auto pr-1">
                     <p className="font-bold text-black">V4.0 Pro Max ✨ ：</p>
                     <ul className="list-disc pl-4 space-y-1">
-                        <li><b>性能飞跃</b>：已支持500+张图片流畅导入与生成。</li>
+                        <li><p> 图片数量多时候建议把 <b>已导入图片折叠</b>避免卡顿</p></li>
                         <li><b>断点续存</b>：自动保存导入的图片，刷新不丢失。</li>
                         <li><b>字重选择</b>：新增字体粗细调节。</li>
                         <li><b>实时预览</b>：打码与贴纸支持实时预览调整。</li>
