@@ -1006,7 +1006,7 @@ function App() {
                         </div>
                         <div className="bg-blue-50 p-2.5 rounded text-[10px] text-blue-600 leading-relaxed">
                             <p><b>列数：</b> 决定每一行横向排列几张图片。</p>
-                            <p><b>每组行数：</b> 决定一张拼图包含几行。例如设为 50，则每张拼图最多包含 50 行图片，超过的会自动分到下一张拼图 (Part 2)。</p>
+                            <p><b>每组行数：</b> 决定一张拼图包含几行。</p>
                         </div>
                 </div>
             </details>
@@ -1029,7 +1029,7 @@ function App() {
                              <span className="text-sm text-gray-500">选择图片</span>
                             <div className="flex gap-2">
                                 <button onClick={previewOverlay} className="text-gray-600 text-[13px] font-bold bg-gray-100 border border-gray-200 px-3 py-1.5 rounded-full active:bg-gray-200 transition flex items-center gap-1">
-                                    👁️ 预览
+                                    ☁️ 预览
                                 </button>
                                 <button onClick={() => overlayInputRef.current?.click()} className="text-[#007AFF] text-[13px] font-bold bg-[#007AFF]/10 px-3 py-1.5 rounded-full active:bg-[#007AFF]/20 transition">
                                     + 图片
@@ -1330,7 +1330,7 @@ function App() {
         <div className="py-10 pb-20 text-center">
             <div className="space-y-1">
                 <p className="text-xs text-gray-500 font-medium">拼图Ultimate (Pro Max)</p>
-                <p className="text-[10px] text-gray-400">Designed by ikko 🈲二传</p>
+                <p className="text-[10px] text-gray-400">Designed by ikko ❗️❗️🈲二传</p>
             </div>
         </div>
       </main>
@@ -1405,10 +1405,9 @@ function App() {
                     <h3 className="text-[18px] font-bold text-gray-900">使用须知</h3>
                 </div>
                 <div className="text-[14px] text-gray-600 leading-relaxed mb-6 space-y-3 max-h-[50vh] overflow-y-auto pr-1">
-                    <p>1. 建议使用 <b>Edge / Chrome</b> 浏览器以获得最佳体验。</p>
-                    <p>2. 如果图片超过 100 张，生成过程可能会有短暂卡顿。</p>
-                    <p>3. 多组图片导出，受浏览器影响，可能不会全部下载完图片。请尝试使用“打包下载(ZIP)”功能。</p>
-                    <p>4. ❗️❗️❗️多图一定要调一下画质，建议50%左右。</p>
+                    <p>1. 建议使用 <b>Edge / Chrome</b></p>
+                    <p>2. 禁止<b>二传</b>，不经过同意二传发现会删链接的</p>
+                    <p>3. 多图一定要调一下画质，建议50%左右。</p>
                 </div>
                 <div className="flex items-center gap-3 mt-2">
                     <button onClick={() => { localStorage.setItem(NOTE_KEY, 'true'); setShowNoteModal(false); }} className="text-xs text-gray-400 font-medium py-2 px-2 active:text-gray-600 transition">不再显示</button>
@@ -1431,7 +1430,7 @@ function App() {
                 <div className="text-[14px] text-gray-600 leading-relaxed mb-6 space-y-2 max-h-[50vh] overflow-y-auto pr-1">
                     <p className="font-bold text-black">V4.0 Pro Max ✨ ：</p>
                     <ul className="list-disc pl-4 space-y-1">
-                        <li><b>性能飞跃</b>：已支持500+张图片流畅导入与生成。</li>
+                        
                         <li><b>断点续存</b>：自动保存导入的图片，刷新不丢失。</li>
                         <li><b>字重选择</b>：新增字体粗细调节。</li>
                         <li><b>实时预览</b>：打码与贴纸支持实时预览调整。</li>
