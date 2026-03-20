@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/Pintu_ikko/',  // GitHub Pages 必须的路径
+  base: '/ikko/',  // GitHub Pages 必须的路径
   server: {
     port: 3000,
     host: '0.0.0.0',
